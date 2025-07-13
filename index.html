@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Happy Birthday 🎉</title>
+    <link rel="stylesheet" href="happy_birthday.css" />
+  </head>
+  <body>
+    <!-- Confetti container -->
+    <div class="confetti-container"></div>
+
+    <!-- Main container -->
+    <div class="main-content">
+      <!-- Cake -->
+      <div class="cake-container">
+        <div class="cake">
+          <div class="frosting"></div>
+          <div class="candle">
+            <div class="flame"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Animated Text -->
+      <h2 class="animated-text">Happy Birthday!</h2>
+      <p>My beloved wife 💖</p>
+
+      <!-- Button -->
+      <button id="celebrateBtn">Celebrate! 🎉</button>
+    </div>
+
+    <!-- 🎁 Surprise Modal -->
+    <div class="modal hidden" id="surpriseModal">
+      <div class="modal-content">
+        <h3>🎁 Surprise!</h3>
+        <p>Wishing you love, laughter, and joy — forever 💖</p>
+        <button id="closeModal">Close</button>
+      </div>
+    </div>
+
+    <!-- 🔊 Birthday Audio -->
+    <audio
+      id="birthdayAudio"
+      src="mp3/happy-birthday-368842.mp3"
+      preload="auto"
+    ></audio>
+
+    <script src="hp.js"></script>
+  </body>
+</html>
